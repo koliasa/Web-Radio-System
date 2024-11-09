@@ -53,7 +53,7 @@ wrs
 1. **Клонування репозиторію:**
 
    ```bash
-   git clone https://github.com/yourusername/wrs.git
+   git clone https://github.com/koliasa/wrs.git
    cd wrs
    ```
 
