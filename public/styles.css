@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  flex-direction: column;
+}
+
+button {
+  width: 120px;
+  height: 120px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:active {
+  background-color: #45a049;
+}
+
+#status {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+}
+
+#indicator {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
