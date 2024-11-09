@@ -4,6 +4,10 @@
 
 "Web Radio" is a web application that allows users to make voice calls through their browser. The app uses WebRTC for audio recording and Socket.IO for real-time data transmission between clients, as well as for synchronizing user status. This project is useful for developers and users who want to create or use a web-based voice communication app without the need for additional software installation.
 
+<p align="center">
+  <img src="wrs.png" alt="Web Radio" />
+</p>
+
 ## Features
 
 - **Web application** for voice calls via the browser.
