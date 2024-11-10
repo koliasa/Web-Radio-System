@@ -53,7 +53,7 @@ wrs
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/koliasa/wrs.git
+   git clone https://github.com/koliasa/Web-Radio-System.git
    cd wrs
    ```
 
