@@ -1,4 +1,4 @@
-# WRS (WEB RADIO SYSTEM)
+# Web Radio System (WRS)
 
 ## Description
 
