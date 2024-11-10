@@ -56,7 +56,7 @@ wrs
 
    ```bash
    git clone https://github.com/koliasa/Web-Radio-System.git
-   cd wrs
+   cd Web-Radio-System
    ```
 
 2. **Інсталяція залежностей:**
