@@ -27,7 +27,14 @@ io.on("connection", (socket) => {
 
   socket.on("message", (data) => {
     const fileName = `${Date.now()}.wav`;
-    const filePath = path.join(__dirname, "audio_recordings", fileName);
+    const audioDir = path.join(__dirname, "audio_recordings");
+
+    if (!fs.existsSync(audioDir)) {
+      fs.mkdirSync(audioDir);
+    }
+
+    const filePath = path.join(audioDir, fileName);
+
     fs.writeFile(filePath, data, (err) => {
       if (err) {
         console.error("Помилка при збереженні аудіо:", err);
@@ -35,6 +42,7 @@ io.on("connection", (socket) => {
       }
       console.log(`Аудіо записано у файл: ${filePath}`);
     });
+
     socket.broadcast.emit("audioMessage", data);
   });
 
