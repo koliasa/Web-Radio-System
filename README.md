@@ -1,4 +1,6 @@
-# Веб рація
+#### Web Radio System (WRS)
+
+<h1 align="center">Веб рація</h1>
 
 ## Опис
 
