@@ -1,4 +1,6 @@
-# Веб рація
+#### Web Radio System (WRS)
+
+<h1 align="center">Веб рація</h1>
 
 ## Опис
 
@@ -53,8 +55,8 @@ wrs
 1. **Клонування репозиторію:**
 
    ```bash
-   git clone https://github.com/koliasa/wrs.git
-   cd wrs
+   git clone https://github.com/koliasa/Web-Radio-System.git
+   cd Web-Radio-System
    ```
 
 2. **Інсталяція залежностей:**

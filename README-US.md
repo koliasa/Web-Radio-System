@@ -1,4 +1,4 @@
-# WRS (WEB RADIO SYSTEM)
+# Web Radio System (WRS)
 
 ## Description
 
@@ -53,8 +53,8 @@ wrs
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/koliasa/wrs.git
-   cd wrs
+   git clone https://github.com/koliasa/Web-Radio-System.git
+   cd Web-Radio-System
    ```
 
 2. **Install dependencies:**
