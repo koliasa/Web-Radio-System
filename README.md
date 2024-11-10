@@ -55,7 +55,7 @@ wrs
 1. **Клонування репозиторію:**
 
    ```bash
-   git clone https://github.com/koliasa/wrs.git
+   git clone https://github.com/koliasa/Web-Radio-System.git
    cd wrs
    ```
 
